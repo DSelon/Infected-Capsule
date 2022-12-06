@@ -58,3 +58,23 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# 에셋 리소스
+/Assets/AllIn1VfxToolkit
+/Assets/Allsky
+/Assets/Epic Toon FX
+/Assets/Font Nation/
+/Assets/Interface and Item Sounds/
+/Assets/LineKotsi
+/Assets/LowPolyAssetBundle
+/Assets/Ultimate Game Music Collection/
+/Assets/Ultimate SFX Bundle - HD Remaster/
+
+Assets/AllIn1VfxToolkit.meta
+Assets/Allsky.meta
+Assets/Epic Toon FX.meta
+Assets/Font Nation.meta
+Assets/Interface and Item Sounds.meta
+Assets/LineKotsi.meta
+Assets/LowPolyAssetBundle.meta
+Assets/Ultimate Game Music Collection.meta
+Assets/Ultimate SFX Bundle - HD Remaster.meta
