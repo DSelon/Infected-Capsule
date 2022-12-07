@@ -94,6 +94,8 @@ public class Capsule : MonoBehaviour
     public void SetCurrentHealth(float currentHealth)
     {
         this.currentHealth = currentHealth;
+
+        if (this.currentHealth <= 0) Infect(); // 체력이 0 이하일 경우, 감염 함수 호출
     }
 
 
@@ -219,5 +221,13 @@ public class Capsule : MonoBehaviour
 
             this.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpPower);
         }
+    }
+
+
+
+    // 감염
+    public void Infect()
+    {
+
     }
 }
